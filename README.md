@@ -10,15 +10,17 @@ cd installer && npm install
 
 ### compile
 ```bash
-tsc
+npm run compile
 ```
 
 ### build
 ```bash
-pkg .
+npm run build
 ```
+
+Three binaries are created. For Linux, Windows and Macos.
 
 ### run
 ```bash
-./create-io-app app-name
+./create-io-app-linux app-name
 ```
